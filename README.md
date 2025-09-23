@@ -89,11 +89,11 @@
 ### 🐍 **Minhas Contribuições em forma de Snake Game**
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ArthurJMP/ArthurJMP/output/github-contribution-grid-snake.svg" alt="Snake Game de Contribuições">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ArthurJMP/ArthurJMP/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ArthurJMP/ArthurJMP/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake Game de Contribuições" src="https://raw.githubusercontent.com/ArthurJMP/ArthurJMP/output/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
 ---
-
-<div align="center">
-  <img src="https://visitcount.itsvg.in/api?id=ArthurJMP&icon=10&color=0" alt="Contador de Visitas">
-</div>
