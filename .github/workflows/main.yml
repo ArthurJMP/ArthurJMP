@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-    # Adicione esta seção de permissões
     permissions:
       contents: write
       
@@ -21,8 +20,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # AQUI está a mágica: adicionamos a paleta para o tema claro
           outputs: |
-            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake.svg?palette=github-light
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to Repo
